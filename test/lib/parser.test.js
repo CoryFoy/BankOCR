@@ -25,7 +25,7 @@ module.exports = {
 
   parsingAOneTokenReturnsTheNumberOne: function() {
     var token = new Token();
-    token.positions = [" ", " ", "|"
+    token.positions = [" ", " ", " "
                      , " ", " ", "|"
                      , " ", " ", "|"];
     var parser = new Parser();
