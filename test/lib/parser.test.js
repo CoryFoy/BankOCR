@@ -11,7 +11,7 @@ module.exports = {
     var parser = new Parser();
     //Is a decision to return an unparsable number as a string
     //a good one? Probably not.
-    assert.equal("", parser.parseNumber(token));
+    assert.equal("?", parser.parseNumber(token));
   },
 
   parsingAZeroTokenReturnsTheNumberZero: function() {
