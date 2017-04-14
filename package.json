@@ -1,0 +1,14 @@
+{
+  "name": "bank",
+  "version": "0.0.1",
+  "description": "Bank OCR kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "teenytest test/lib/**/*.test.js --helper test/helper.js"
+  },
+  "author": "Cory Foy",
+  "license": "ISC",
+  "devDependencies": {
+    "teenytest": "^5.0.2"
+  }
+}
